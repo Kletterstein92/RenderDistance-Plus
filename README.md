@@ -52,4 +52,4 @@ If the installation was successful, a custom text-based configuration GUI will i
 </details>
 
 # 🐛How to Report Issues
-Please use the Issue Tracker or got to https://github.com/Kletterstein92/Render-Distance-Plus/issues to report any bugs or other errors
+Please go to https://github.com/Kletterstein92/Render-Distance-Plus/issues to report any bugs or other errors
