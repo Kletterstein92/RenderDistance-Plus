@@ -1,0 +1,1 @@
+function datapack:settings/display with storage datapack:storage

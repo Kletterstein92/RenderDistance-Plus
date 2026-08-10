@@ -1,0 +1,1 @@
+scoreboard players set @a render_distance 1000
