@@ -1,1 +1,0 @@
-function datapack:settings/update_chat with storage datapack:storage
