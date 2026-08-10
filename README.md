@@ -1,5 +1,3 @@
-# Render Distance+
-
 Render Distance+ is a powerful Minecraft datapack that completely overhauls the default render distance by leveraging the power of Voxy and Chunky. This datapack 100% automates the Chunky chunk loading workflow, saving you a lot of continuous command inputs.
 
 - Fully **customizable** directly in-game
@@ -10,7 +8,7 @@ Render Distance+ is a powerful Minecraft datapack that completely overhauls the 
 
 ![A beautiful landscape showcasing massive render distance achieved automatically with Render Distance](https://cdn.modrinth.com/data/cached_images/696aec69d625812f032dfff1f5bd5ba1c4fe0305.jpeg)
 
-### Features & Why Render Distance+ is Essential
+# Features & Why Render Distance+ is Essential
 
 To get the absolute most out of Voxy's rendering engine, users normally need to manually configure Chunky to pre-load chunks. Traditionally, this is a tedious and complex process involving multiple terminal commands, radius calculations, and constant server/world reloading. 
 
@@ -19,7 +17,7 @@ To get the absolute most out of Voxy's rendering engine, users normally need to 
 * **Full Dimension Support:** Works automatically across all vanilla dimensions (The Overworld, The Nether, and The End).
 * **In-Game Settings GUI:** No need to edit config files. Change your generation speed, maximum target distance, and toggle features directly via an intuitive in-game interactive chat GUI.
 
-### How to Install Render Distance+
+# 📥How to Install Render Distance+
 
 Before installing, ensure you have both the **Voxy** and **Chunky** mods installed in your modpack.
 1. Download the Render Distance+ datapack `.zip` file.
@@ -36,7 +34,7 @@ Before installing, ensure you have both the **Voxy** and **Chunky** mods install
 
 </details>
 
-### How to Check if Render Distance+ is Installed Correctly
+# How to Check if Render Distance+ is Installed Correctly
 
 Once inside your world, open the chat and type:
 ``` /reload ```
@@ -52,3 +50,6 @@ If the installation was successful, a custom text-based configuration GUI will i
 - Sodium (Required by Voxy)
 
 </details>
+
+# 🐛How to Report Issues
+Please use the Issue Tracker or got to https://github.com/Kletterstein92/Render-Distance-Plus/issues to report any bugs or other errors
