@@ -1,0 +1,1 @@
+trigger render_distance set 250
