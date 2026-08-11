@@ -15,6 +15,7 @@ scoreboard objectives add elytra minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add blocks_moved dummy
 scoreboard objectives add actionbar dummy
 scoreboard objectives add times_started_work dummy
+scoreboard objectives add canceled dummy
 
 scoreboard objectives add render_distance trigger
 scoreboard objectives add add_250 trigger
@@ -22,9 +23,11 @@ scoreboard objectives add take_250 trigger
 scoreboard objectives add restart trigger
 scoreboard objectives add cancel trigger
 
+scoreboard players reset @a canceled
+
 schedule function datapack:chunky/call/call_first 16s
 
-schedule function datapack:call_settings/call_settings 4s
+schedule function datapack:call_settings/call_settings 2s
 
 tellraw @a {"color":"green","hover_event":{"action":"show_text","value":[{"text":"","italic":true}]},"text":"Render Distance+ reloaded"}
 
