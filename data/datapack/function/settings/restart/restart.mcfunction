@@ -1,4 +1,7 @@
 execute at @s run playsound entity.experience_orb.pickup neutral @a
+execute at @r[limit=1] run setworldspawn ~ ~ ~
+chunky cancel
+chunky confirm
 schedule clear datapack:chunky/call/call_work
 schedule clear datapack:chunky/call/call_first
 schedule function datapack:chunky/call/call_work 1t

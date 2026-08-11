@@ -20,6 +20,7 @@ scoreboard objectives add render_distance trigger
 scoreboard objectives add add_250 trigger
 scoreboard objectives add take_250 trigger
 scoreboard objectives add restart trigger
+scoreboard objectives add cancel trigger
 
 schedule function datapack:chunky/call/call_first 16s
 
