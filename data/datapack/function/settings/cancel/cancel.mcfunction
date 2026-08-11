@@ -1,4 +1,6 @@
-execute at @a run playsound block.anvil.place neutral @s
+scoreboard players reset @s cancel
+scoreboard players set @s canceled 1
+execute at @a run playsound block.anvil.place neutral @a
 chunky cancel
 chunky confirm
 schedule clear datapack:chunky/call/call_work

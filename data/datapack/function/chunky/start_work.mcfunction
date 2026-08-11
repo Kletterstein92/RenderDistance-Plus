@@ -1,3 +1,5 @@
+scoreboard players reset @a canceled
+
 $execute if score @r actionbar matches 1.. run title @a actionbar [{"text":"Debug: Started Work ($(setting_render_distance))","color":"#28e632"}]
 execute at @r[limit=1] run setworldspawn ~ ~ ~
 chunky cancel
