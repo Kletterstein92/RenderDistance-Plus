@@ -1,2 +1,5 @@
-chunky silent
+execute at @a[limit=1] run chunky silent
+scoreboard players reset @a balken
+execute at @s run playsound entity.experience_orb.pickup neutral @a
+tellraw @a ["=================\n",{"text":"Render Distance+","bold":true,"color":"aqua"},"\n=================\n",{"text":"By Kletterstein92","color":"green"},"\n-----------------\n\n",{"text":"Report Issue","underlined":true,"color":"green","click_event":{"action":"open_url","url":"https://github.com/Kletterstein92/RenderDistance-Plus/issues"}},"\n\n",{"text":"Debug","color":"gold"}," Log: ",{"text":"[+]","color":"yellow"}," ",{"text":"[-]","color":"yellow"},"\n\n",{"text":"Debug","color":"gold"}," Bar:",{"text":" [ON/OFF]","color":"yellow","click_event":{"action":"run_command","command":"trigger balken add 1"}},"\n\n\n\n\n\n\n\n"]
 tellraw @a ["",{"text":"Info:","color":"green"}," Bar visibility changed."]

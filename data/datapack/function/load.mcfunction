@@ -22,6 +22,7 @@ scoreboard objectives add add_250 trigger
 scoreboard objectives add take_250 trigger
 scoreboard objectives add restart trigger
 scoreboard objectives add cancel trigger
+scoreboard objectives add balken trigger
 
 scoreboard players reset @a canceled
 
