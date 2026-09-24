@@ -65,6 +65,10 @@ scoreboard players enable @a restart
 scoreboard players enable @a cancel
 scoreboard players enable @a balken
 scoreboard players enable @a back
+scoreboard players enable @a view_settings
+scoreboard players enable @a next_page
+scoreboard players enable @a debug_start
+scoreboard players enable @a debug_end
 
 execute as @a[scores={add_250=1..}] run function datapack:settings/add_250 with storage datapack:storage
 execute as @a[scores={take_250=1..}] run function datapack:settings/take_250 with storage datapack:storage
@@ -73,5 +77,9 @@ execute as @a[scores={render_distance=..1}] run function datapack:settings/set_2
 execute as @a[scores={cancel=1..}] run function datapack:settings/cancel/cancel with storage datapack:storage
 execute as @a[scores={balken=1..}] run function datapack:settings/balken/change with storage datapack:storage
 execute as @a[scores={back=1..}] run function datapack:call_settings/call_settings
+execute as @a[scores={view_settings=1..}] run function datapack:call_settings/call_settings
+execute as @a[scores={next_page=1..}] run function datapack:settings/aditional/display_aditional
+execute as @a[scores={debug_start=1..}] run function datapack:debug/debug_start
+execute as @a[scores={debug_end=1..}] run function datapack:debug/debug_end
 # 2. Kopiert deine Zahl aus dem Chat in den Speicher "storage"
 execute as @a[scores={render_distance=1..}] run execute store result storage datapack:storage setting_render_distance int 1 run scoreboard players get @s render_distance

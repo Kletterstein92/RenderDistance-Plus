@@ -1,0 +1,2 @@
+tellraw @a [{"text":"[View Settings]","bold":true,"color":"green","click_event":{"action":"run_command","command":"trigger view_settings set 1"},"hover_event":{"action":"show_text","value":[{"text":"View settings of Render Distance+","italic":true,"color":"aqua"}]}}]
+execute at @a run playsound entity.experience_orb.pickup neutral @a

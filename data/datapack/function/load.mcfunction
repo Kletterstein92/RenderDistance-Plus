@@ -24,14 +24,16 @@ scoreboard objectives add restart trigger
 scoreboard objectives add cancel trigger
 scoreboard objectives add balken trigger
 scoreboard objectives add back trigger
+scoreboard objectives add view_settings trigger
+scoreboard objectives add next_page trigger
+scoreboard objectives add debug_start trigger
+scoreboard objectives add debug_end trigger
 
 scoreboard players reset @a canceled
 
 schedule function datapack:chunky/call/call_first 16s
 
-schedule function datapack:call_settings/call_settings 2s
-
-tellraw @a {"color":"green","hover_event":{"action":"show_text","value":[{"text":"","italic":true}]},"text":"Render Distance+ reloaded"}
+schedule function datapack:call_settings/display_settings_buttom 2s
 
 schedule function datapack:scoreboard 1s
 
